@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+.dockerignore
