@@ -567,7 +567,7 @@ export default function CategoryDetail() {
                             className={`px-3 py-1 text-sm font-medium rounded-lg transition-all ${
                               currentPage === pageNum
                                 ? 'bg-blue-600 text-white'
-                                : 'bg-slate-850 border border-slate-800 text-slate-400 hover:text-white'
+                                : 'bg-slate-800 border border-slate-800 text-slate-400 hover:text-white'
                             }`}
                           >
                             {pageNum}
@@ -635,7 +635,7 @@ export default function CategoryDetail() {
                 value={formName}
                 onChange={(e) => setFormName(e.target.value)}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm disabled:opacity-50"
                 placeholder="e.g. Wireless Mouse Pro"
                 required
               />
@@ -649,7 +649,7 @@ export default function CategoryDetail() {
                 value={formSku}
                 onChange={(e) => setFormSku(e.target.value)}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm disabled:opacity-50"
                 placeholder="e.g. WM-001"
                 required
               />
@@ -664,7 +664,7 @@ export default function CategoryDetail() {
                 value={formQuantity}
                 onChange={(e) => setFormQuantity(Number(e.target.value))}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
                 min="0"
               />
             </div>
@@ -675,7 +675,7 @@ export default function CategoryDetail() {
                 value={formMinStock}
                 onChange={(e) => setFormMinStock(Number(e.target.value))}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
                 min="0"
               />
             </div>
@@ -690,7 +690,7 @@ export default function CategoryDetail() {
                 value={formPrice}
                 onChange={(e) => setFormPrice(Number(e.target.value))}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
                 min="0"
               />
             </div>
@@ -702,7 +702,7 @@ export default function CategoryDetail() {
                 value={formCost}
                 onChange={(e) => setFormCost(Number(e.target.value))}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
                 min="0"
               />
             </div>
@@ -716,7 +716,7 @@ export default function CategoryDetail() {
                 value={formSupplier}
                 onChange={(e) => setFormSupplier(e.target.value)}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
                 placeholder="e.g. TechSupply Co."
               />
             </div>
@@ -727,7 +727,7 @@ export default function CategoryDetail() {
                 value={formUnit}
                 onChange={(e) => setFormUnit(e.target.value)}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
                 placeholder="e.g. pieces, boxes"
               />
             </div>
@@ -739,7 +739,7 @@ export default function CategoryDetail() {
               value={formStatus}
               onChange={(e) => setFormStatus(e.target.value as ItemStatus)}
               disabled={modalLoading}
-              className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+              className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
             >
               <option value="in-stock">In Stock</option>
               <option value="low-stock">Low Stock</option>
@@ -775,7 +775,7 @@ export default function CategoryDetail() {
                 value={formName}
                 onChange={(e) => setFormName(e.target.value)}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm disabled:opacity-50"
                 placeholder="e.g. Wireless Mouse Pro"
                 required
               />
@@ -789,7 +789,7 @@ export default function CategoryDetail() {
                 value={formSku}
                 onChange={(e) => setFormSku(e.target.value)}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm disabled:opacity-50"
                 placeholder="e.g. WM-001"
                 required
               />
@@ -804,7 +804,7 @@ export default function CategoryDetail() {
                 value={formQuantity}
                 onChange={(e) => setFormQuantity(Number(e.target.value))}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
                 min="0"
               />
             </div>
@@ -815,7 +815,7 @@ export default function CategoryDetail() {
                 value={formMinStock}
                 onChange={(e) => setFormMinStock(Number(e.target.value))}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
                 min="0"
               />
             </div>
@@ -830,7 +830,7 @@ export default function CategoryDetail() {
                 value={formPrice}
                 onChange={(e) => setFormPrice(Number(e.target.value))}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
                 min="0"
               />
             </div>
@@ -842,7 +842,7 @@ export default function CategoryDetail() {
                 value={formCost}
                 onChange={(e) => setFormCost(Number(e.target.value))}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
                 min="0"
               />
             </div>
@@ -856,7 +856,7 @@ export default function CategoryDetail() {
                 value={formSupplier}
                 onChange={(e) => setFormSupplier(e.target.value)}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
                 placeholder="e.g. TechSupply Co."
               />
             </div>
@@ -867,7 +867,7 @@ export default function CategoryDetail() {
                 value={formUnit}
                 onChange={(e) => setFormUnit(e.target.value)}
                 disabled={modalLoading}
-                className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
                 placeholder="e.g. pieces, boxes"
               />
             </div>
@@ -879,7 +879,7 @@ export default function CategoryDetail() {
               value={formStatus}
               onChange={(e) => setFormStatus(e.target.value as ItemStatus)}
               disabled={modalLoading}
-              className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
+              className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm disabled:opacity-50"
             >
               <option value="in-stock">In Stock</option>
               <option value="low-stock">Low Stock</option>

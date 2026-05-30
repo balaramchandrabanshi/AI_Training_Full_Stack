@@ -377,7 +377,7 @@ export default function Items() {
                             className={`px-3 py-1 text-sm font-medium rounded-lg transition-all ${
                               currentPage === pageNum
                                 ? 'bg-blue-600 text-white'
-                                : 'bg-slate-850 border border-slate-800 text-slate-400 hover:text-white'
+                                : 'bg-slate-800 border border-slate-800 text-slate-400 hover:text-white'
                             }`}
                           >
                             {pageNum}

@@ -287,7 +287,7 @@ export default function InventoryDetail() {
               value={formName}
               onChange={(e) => setFormName(e.target.value)}
               disabled={modalLoading}
-              className="w-full px-3 py-2.5 bg-slate-805 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full px-3 py-2.5 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm disabled:opacity-50 disabled:cursor-not-allowed"
               placeholder="e.g. Computers"
               required
             />
@@ -301,7 +301,7 @@ export default function InventoryDetail() {
               value={formDescription}
               onChange={(e) => setFormDescription(e.target.value)}
               disabled={modalLoading}
-              className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all min-h-[100px] text-sm disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all min-h-[100px] text-sm disabled:opacity-50 disabled:cursor-not-allowed"
               placeholder="e.g. Desktop computers, notebooks and servers"
             />
           </div>
@@ -332,7 +332,7 @@ export default function InventoryDetail() {
               value={formName}
               onChange={(e) => setFormName(e.target.value)}
               disabled={modalLoading}
-              className="w-full px-3 py-2.5 bg-slate-805 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full px-3 py-2.5 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm disabled:opacity-50 disabled:cursor-not-allowed"
               placeholder="e.g. Computers"
               required
             />
@@ -346,7 +346,7 @@ export default function InventoryDetail() {
               value={formDescription}
               onChange={(e) => setFormDescription(e.target.value)}
               disabled={modalLoading}
-              className="w-full px-3 py-2 bg-slate-805 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all min-h-[100px] text-sm disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all min-h-[100px] text-sm disabled:opacity-50 disabled:cursor-not-allowed"
               placeholder="e.g. Desktop computers, notebooks and servers"
             />
           </div>

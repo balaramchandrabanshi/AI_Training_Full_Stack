@@ -61,7 +61,7 @@ export default function Modal({
           <button
             type="button"
             onClick={onClose}
-            className="px-4 py-2 bg-slate-850 hover:bg-slate-800 text-slate-300 rounded-lg text-sm font-medium transition-colors border border-slate-800"
+            className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-sm font-medium transition-colors border border-slate-800"
             disabled={loading}
           >
             Cancel
@@ -87,7 +87,7 @@ export default function Modal({
     >
       <div className="bg-slate-900 border border-slate-800 rounded-xl max-w-lg w-full p-6 shadow-2xl relative overflow-y-auto max-h-[90vh] animate-slide-in flex flex-col">
         {/* Header */}
-        <div className="flex items-center justify-between pb-4 border-b border-slate-855 mb-4">
+        <div className="flex items-center justify-between pb-4 border-b border-slate-800 mb-4">
           <h3 className="text-xl font-bold text-white">{title}</h3>
           <button
             onClick={onClose}
